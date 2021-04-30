@@ -1,0 +1,471 @@
+/* CSS GENERALES */
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;  
+}
+
+header{
+    background-color: #EAC926;
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    padding: 20px;
+}
+
+body {
+    background-color: #ebebeb;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+p {
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 15px;
+}
+
+/* BARRA DE NAVEGACION */
+
+.main-header-nav-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.titular {
+    font-size: 24px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.precios {
+    font-size: 18px;
+    width: 30%;
+}
+
+.descuentos {
+    font-size: 16px;
+    color: #39b54a;
+    width: 70%;
+}
+
+/* ARTICULOS */
+
+.descripciones {
+    font-size: 16px;
+    display: none;
+    /*opacity: 0;
+    height: 0;
+    width: 0;*/
+
+}
+
+.info-producto {
+    border-top: 1px solid #ebebeb;
+    padding-top: 10px;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-top-bar {
+    width: 50%;
+}
+
+.img-top-bar img {
+    width: 100%;
+    padding-right: 10%;
+}
+
+.main-header-nav-bar {
+    display: none;
+}
+
+.main-header-nav-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-header-nav-bar a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 5px 0;
+    font-size: 14px;
+}
+
+.ul-style a{
+    margin-left: 2px;
+}
+
+.burger-menu {
+    color: white;
+    font-size: 18px;
+    border-radius: 8px;
+    background-color: #1259c3;
+    max-width: 50px;
+    padding: 15px 0; 
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.banner-ml {
+    margin-bottom: 10px;;
+}
+
+.credit-card {
+    text-align: center;
+    color: #1259c3;;
+    font-size: 2em;
+    margin-bottom: 10px
+    
+}
+
+.gift {
+    text-align: center;
+    color: #1259c3;;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.user-shield {
+    text-align: center;
+    color: #1259c3;;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.producto {
+    background-color: white;
+    /*box-shadow: 0 1px 1px 0 rgb(0 0 0 / 10%);*/
+    border-radius:6px;
+    margin: 10px;
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+}
+
+/* FOOTER */
+
+.copyright {
+    text-align: left;
+}
+
+.shipping-card-user h4 {
+    margin-bottom: 8px;
+}
+
+/* END FOOTER*/
+.truck {
+    color: #39b54a;
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    right: 10px;
+    top: -15px;
+    float: right;
+    position: relative;
+}
+
+
+.search-bar {
+    width: 50%;
+}
+
+.searcher {
+    width: 100%;
+
+}
+
+.top-bar p {
+    margin-left: 20px;
+}
+
+.ul-style li i {
+    margin-left: 5px;
+}
+
+.search-bar {
+  background: white;
+  position: relative;
+  width: 300px;
+  border-radius: 5px;
+}
+
+.form-input2 {
+    background-color: white;
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    max-width: 500px;
+}
+
+.button-search-bar {
+   padding: 4px;
+   padding-top: 2px;
+   border: none;
+   background-color: white;
+  
+}
+
+.lupa i {
+    cursor: pointer;
+    color: #cac7c7fa;
+}
+
+.lupa {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 18px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 6px 7px;
+    z-index: 2;
+}
+
+.precio-descuento {
+    display: flex;
+}
+
+.compras-interes {
+    display: none;
+}
+
+/* INICIO FORMULARIO LOGIN */
+
+input {
+    text-indent: 10px;
+}
+
+
+.form-input {
+    background-color: white;
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: none;
+    max-width: 500px;
+}
+
+.form-submit-button {
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: none;
+    max-width: 500px;
+    background-color: #1259c3; 
+    color: white;
+}
+
+
+.formulario-login {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+
+/* FIN FORMULARIO LOGIN */
+
+/* INICIO FORMULARIO DE REGISTRO */
+
+.formulario-registro {
+   padding: 20px;
+}
+
+/* FIN FORMULARIO DEE REGISTRO */
+
+/* TABLETS */
+@media screen and (min-width: 361px) {
+
+    .descripciones {
+        display: block;
+    }
+
+    .producto {
+        /*box-shadow: 0px 0px 10px rgb(100, 100, 100);*/
+        flex-grow: 1;
+        flex-basis: 33%;
+        flex-shrink: 1;
+    }
+    .container01 {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .container02 {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .compras-interes {
+        display: block;
+    }
+ }
+ 
+ /* Desktop */
+ @media screen and (min-width: 769px) {
+    .burger-menu {
+        display: none;
+    }
+    .main-header-nav-bar {
+        display: block;
+        display: flex;
+        justify-content: space-between;
+    }
+    .top-bar {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .main-header-nav-bar ul {
+        display: flex;
+    }
+    .main-header-nav-bar ul li {
+        margin: 0 18px;
+    }
+
+    .container01 {
+        flex-wrap: nowrap;
+        align-items: flex-start;
+    }
+
+    .container02 {
+        flex-wrap: nowrap;
+        align-items: flex-start;
+    }
+    .compras-interes {
+        display: block;
+    }
+    .img-top-bar img {
+        width: 100%;
+        padding-right: 10%;
+        height: 60px;
+    } 
+
+    .descripciones {
+        opacity: 0;
+        height: 0;
+        width: 0;
+    }
+    .producto:hover {
+        transition: box-shadow 1s;
+        box-shadow: 0px 0px 10px rgb(100, 100, 100)
+    }
+    .producto:hover .descripciones {
+        transition: all 1s;
+        opacity: 1;
+        height: auto;
+        width: auto;
+    }
+
+    .truck {
+        overflow: hidden;
+        transition-duration: 0.8s;
+        transition-property: transform;
+    }
+    .truck:hover {
+        transform: rotate(-360deg);
+        -webkit-transform: rotate(360deg);
+    }
+
+    .form-submit-button:hover {
+        background-color: #0022AA;
+    }
+    
+    .footer-ml {
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .shipping-card-user {
+        max-width: 20%;
+        padding: 10px;
+        margin: 15px 5px 15px 5px;
+    }
+    
+    .icon-footer:hover{
+        color: #0022AA;
+    }
+
+
+
+ }
+/* DESKTOP PLUS */
+ @media (min-width: 1200px) {
+     .top-bar, .main-header-nav-bar {
+         max-width: 1200px;
+         margin: auto;
+     }
+     .main-header-nav-bar ul li {
+        margin: 0 30px;
+     }
+     .main-header-nav-bar a {
+        font-size: 15px;
+     }
+     .img-top-bar {
+        width: 250px;
+    }
+    .top-bar p {
+        font-size: 18px;
+    }
+    .top-bar {
+        align-items: center;
+    }
+    .compras-interes {
+        display: block;
+    }
+    .container01 {
+        display: flex;
+        flex-grow: inherit;
+    }
+    .container02 {
+        display: flex;
+        flex-grow: inherit;
+    }
+ }
+
+ /* FIN CSS HOME */
+
+ /* INICIO CSS REGISTER */
+
+.formulario-register {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+ /* FIN CSS REGISTER */
