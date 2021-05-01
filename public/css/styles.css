@@ -295,6 +295,53 @@ input {
     text-align: center;
 }
 
+.birth-date {
+    display: block;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: baseline;
+    align-content: center;
+}
+
+.birth-date input {
+    width: 100%;
+}
+
+.birth-date label {
+    padding-bottom: 5px;
+}
+
+.user-profile {
+    display: block;
+}
+
+.interests {
+    display: block;
+}
+
+.options {
+    flex-flow: column;
+    margin-bottom: 10px;
+}
+
+.interest-option {
+    margin-bottom: 8px;
+}
+
+.profile {
+    margin-bottom: 10px;
+}
+
+.profile-picture {
+    margin-bottom: 20px;
+}
+
+.profile-picture label {
+    display: block;
+    margin-bottom: 10px;
+}
 
 /* FIN FORMULARIO LOGIN */
 

@@ -68,7 +68,7 @@
                     <input class="form-input"type="text" name="nombre" id="nombre" placeholder="Nombre de usuari@" required>
                 </div>
                 
-                <div>
+                <div class="birth-date">
                     <label for="fecha">Fecha de nacimiento</label>
                     <input class="form-input" type="date" name="fecha" required>
                 </div>
@@ -77,8 +77,8 @@
                     <input class="form-input" type="text" name="direccion" id="nombre" placeholder="Domicilio">
                 </div>
                 
-                <div>
-                    <label for="perfil"> Perfil del usuario </label>
+                <div class="profile">
+                    <label class="user-profile" for="perfil"> Perfil del usuario </label>
                         <input type="radio" name="perfil-del-usuario" value="Comprador">
                         <label for="perfil">Comprador</label>
                         <input type="radio" name="perfil-del-usuario" value="Vendedor">
@@ -86,22 +86,39 @@
                 </div>
                 
                 <div>
-                    <label for="categorias">
-                        <input type="checkbox" name="intereses" value="Electro">
-                        <label for="intereses">Electro</label>
-                        <input type="checkbox" name="intereses" value="Moda">
-                        <label for="intereses">Moda</label>
-                        <input type="checkbox" name="intereses" value="Hogar">
-                        <label for="intereses">Hogar</label>
-                        <input type="checkbox" name="intereses" value="Jugueteria">
-                        <label for="intereses">Juguetería</label>
-                        <input type="checkbox" name="intereses" value="Vida Sana">
-                        <label for="intereses">Vida Sana</label>
-                        Categorías de interés
-                    </label>
+                    <label class="interests" for="categorias"> Intereses </label>
+
+                    <div class="options">
+
+                        <div class="interest-option">
+                            <input type="checkbox" name="intereses" value="Electro">
+                            <label for="intereses">Electro</label>
+                        </div>
+
+                        <div class="interest-option">
+                            <input type="checkbox" name="intereses" value="Moda">
+                            <label for="intereses">Moda</label>
+                        </div>
+                        
+                        <div class="interest-option">
+                            <input type="checkbox" name="intereses" value="Hogar">
+                            <label for="intereses">Hogar</label>
+                        </div>
+                        
+                        <div class="interest-option">
+                            <input type="checkbox" name="intereses" value="Jugueteria">
+                            <label for="intereses">Juguetería</label>
+                        </div>
+                            
+                        <div class="interest-option">
+                            <input type="checkbox" name="intereses" value="Vida Sana">
+                            <label for="intereses">Vida Sana</label>
+                        </div>
+                    </div>
+                       
                 </div>
 
-                <div>
+                <div class="profile-picture">
                     <label>Seleccionar una imagen para el perfil:</label>
                     <input type="file" name="avatar" accept=".jpg" multiple>
                 </div>
